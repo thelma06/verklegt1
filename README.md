@@ -30,7 +30,7 @@ Eva og Thelma settust niður í klukkutíma frá 12.20 - 13.20 og löguðu noten
 
 MORGUNFUNDER 5:31
 
-Gunnsteinn, Þorsteinn, Ingibjörg og Thelma mætt
+Gunnsteinn, Þorsteinn, Ingibjörg,Eva og Thelma mætt
 
 Ákveðið að fækka notendum niður í 2 og uppfærum notendatilvik og kröfulista til sæmræmis.
 
@@ -38,7 +38,7 @@ Markmiðið:
 - að klára klasarit 
   - strákarnir gera nafnorðagreiningu og útfrá því vinnum við í að greina klasa niður í ,,tier"
   - Hópurinn smíðar svo klasarit í sameiningu.
- - Klára Use casin og laga til kröfulistann (Ingibjörg og Thelma)
+ - Klára Use casin og laga til kröfulistann (Ingibjörg,Eva og Thelma)
  
  
 -----------------------------------------------------------------------------------------------
