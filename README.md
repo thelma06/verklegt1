@@ -28,5 +28,17 @@ Fundur skipulagður kl.17.00 og ákváðum að byrja vinnu dagsins þá.
 Eva og Thelma settust niður í klukkutíma frá 12.20 - 13.20 og löguðu notendamarkmið og nytsemismarkmið til.
 Þurfum að laga use case-in ---- eitt fyrir að setja inn upplýsingar annað case til að sækja upplýsingar
 
+MORGUNFUNDER 5:31
 
------------------------------------------------------------------------------------------------------------------------
+Gunnsteinn, Þorsteinn, Ingibjörg og Thelma mætt
+
+Ákveðið að fækka notendum niður í 2 og uppfærum notendatilvik og kröfulista til sæmræmis.
+
+Markmiðið:
+- að klára klasarit 
+  - strákarnir gera nafnorðagreiningu og útfrá því vinnum við í að greina klasa niður í ,,tier"
+  - Hópurinn smíðar svo klasarit í sameiningu.
+ - Klára Use casin og laga til kröfulistann (Ingibjörg og Thelma)
+ 
+ 
+-----------------------------------------------------------------------------------------------
