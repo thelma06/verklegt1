@@ -40,5 +40,9 @@ Markmiðið:
   - Hópurinn smíðar svo klasarit í sameiningu.
  - Klára Use casin og laga til kröfulistann (Ingibjörg,Eva og Thelma)
  
+ Klasarit komin af stað - Þorsteinn og Gunnsteinn - In Progress
+ Stöðurit - Ingibjörg og Thelma - In progress
+ Happy paths og wireframe - Eva - In Progress
  
+ HOME TIME 22:00
 -----------------------------------------------------------------------------------------------
