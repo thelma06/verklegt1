@@ -58,6 +58,7 @@ Miðvikudagur
 18.20 Thelma mætti
 
 
+
 Morgunfundur online á facebook spjalli 12.20
 Eva tók að sér Happy paths og vann í því frá 12:20
 Thelma tók að sér að laga stöðuritið og vann í því frá 12:20
