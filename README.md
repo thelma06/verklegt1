@@ -44,7 +44,7 @@ Markmiðið:
  Stöðurit - Ingibjörg og Thelma - In progress
  Happy paths og wireframe - Eva - In Progress
  
- HOME TIME 22:00
+ HOME TIME: 22:00
 -----------------------------------------------------------------------------------------------
 
 Dagur 3 - 27.11.2019
@@ -53,17 +53,35 @@ Dagur 3 - 27.11.2019
 
 
 Morgunfundur online á facebook spjalli 12.20
-Eva tók að sér Happy paths og vann í því frá 12 
-Thelma tók að sér að laga stöðuritið og vann í því frá 12
+Eva tók að sér Happy paths og vann í því frá 12:20
+Thelma tók að sér að laga stöðuritið og vann í því frá 12:20
 
-Ákváðum að hittast í Sólinni HR kl. 17 - 
+Ákváðum að hittast í Sólinni HR kl. 17:00
 
-Steinarnir* mættu stundvíslega kl.17
+Steinarnir* mættu stundvíslega kl.17:00
 Eva mætti kl.17.30
 Ingibjörg mætti 18.00
 
 Ákváðum að bæta við fleiri B kröfum. Markmið kvöldsins er að bæta B kröfum á kröfulista, use cases, stöðurit og klasarit - einnig að klára Happy Paths.
 
+Markmið:
+Klasarit klárað [x] - Steinarnir*
+Stöðurit [x] - Thelma
+Happy Paths [x] - Eva
+B kröfur og uppfæra kröfulisti og notendatilvik[x] - Ingibjörg
+Skýrslan sett upp [x] - Eva
+
+Klasaritið klárað eftir leiðbeiningum frá Arnari.
+Stöðurit er komið, var sett upp í samræmi við happy paths og hópurinn búinn að skoða og segja álit.
+Happy Paths klárað, hópurinn búinn að skoða og koma með comment.
+B kröfur og uppfærsla á kröfulista og notendatilvikum klárað.
+Eva búin að setja skýrsluna upp, næst röðum við öllum hlutum skýrslu verður bætt inn.
+
+******************************************************************************************************
 *Þorsteinn og Gunnsteinn
+******************************************************************************************************
 
-
+Home Time: 
+--------------------------------------------------------------------------------------------------------------------
+Dagur 4 - 28.11.2019
+--------------------------------------------------------------------------------------------------------------------
