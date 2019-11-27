@@ -53,9 +53,10 @@ Mobile phone: 666-2020
 E-mail: john.smith@nan.chuck
 Occupation: Pilot
 
+** Press enter to return to menu **
 
 ***********************************
-*           GET EMPLOYEE          *
+*              GET                *
 ***********************************
 
 What would you like to do?

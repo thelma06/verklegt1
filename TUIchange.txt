@@ -111,11 +111,18 @@ Occupation: Pilot
 Is this information correct? (Y/N)
 |
 
+
+***********************************
+*            SUCCESS!             *
+***********************************
+
+** Press enter to return to menu **
+
 ***********************************
 *         UPDATE EMPLOYEE         *
 ***********************************
   ** What information would you **
-        ** like to change? **
+       ** like to change? **
 
 1: Address
 2: Home phone
@@ -132,7 +139,7 @@ What would you like to do?
 
 1: Update employee
 2: Update destination
-3: Update flight route
+3: Update flight
 b: Back
 q: Quit
 

@@ -34,7 +34,8 @@ q: Quit
 3: Nuuk
 4: Thorshavn
 5: Tingwall
-
+b: Back
+q: Quit
 
 ***********************************
 *          CREATE FLIGHT          *
@@ -76,7 +77,7 @@ Departure time:|
 Destination: Nuuk
 Departure date: 10/12/2019
 Departure time: 10:20
-Would you like to repeat this booking? (Y/N)
+Will this be a recurring flight? (Y/N)
 |
 
 ***********************************
@@ -88,12 +89,15 @@ Would you like to repeat this booking? (Y/N)
 Destination: Nuuk
 Departure date: 10/12/2019
 Departure time: 10:20
+Repeat booking: No
 Is this information correct? (Y/N)
 |
 
 ***********************************
 *            SUCCESS!             *
 ***********************************
+** Press enter to return to menu **
+
 
 
 // if yes then this one
@@ -108,21 +112,6 @@ Destination: Nuuk
 2: Time: 15:50
 3: Time: 16:30
 
-***********************************
-*          CREATE FLIGHT          *
-***********************************
-**Please fill in the information**
-            **below**
-
-         ** Q to quit **
-
-Name: John Smith
-Date of birth: 23/07/1973
-Address: Frakkarstígur 10
-Home phone: 555-2020
-Mobile phone: 666-2020
-E-mail:|
-
 
 ***********************************
 *          CREATE FLIGHT          *
@@ -130,15 +119,21 @@ E-mail:|
 **Please fill in the information**
             **below**
 
-         ** Q to quit **
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:55
+Would you like to repeat this booking? (Y/N)
+|
 
-Name: John Smith
-Date of birth: 23/07/1973
-Address: Frakkarstígur 10
-Home phone: 555-2020
-Mobile phone: 666-2020
-E-mail: john.smith@nan.chuck
-Occupation: (P)ilot, (C)abin Crew
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+    ** Choose when to repeat **
+
+1: Every day
+2: Every week
+3: Every month
 
 
 ***********************************
@@ -147,31 +142,17 @@ Occupation: (P)ilot, (C)abin Crew
 **Please fill in the information**
             **below**
 
-         ** Q to quit **
-
-Name: John Smith
-Date of birth: 23/07/1973
-Address: Frakkarstígur 10
-Home phone: 555-2020
-Mobile phone: 666-2020
-E-mail: john.smith@nan.chuck
-Occupation: Pilot
-
-***********************************
-*          CREATE FLIGHT          *
-***********************************
-**Please verify the information**
-
-Name: John Smith
-Date of birth: 23/07/1973
-Address: Frakkarstígur 10
-Home phone: 555-2020
-Mobile phone: 666-2020
-E-mail: john.smith@nan.chuck
-Occupation: Pilot
-
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:20
+Repeat booking: Every week
 Is this information correct? (Y/N)
 |
+
+***********************************
+*            SUCCESS!             *
+***********************************
+** Press enter to return to menu **
 
 
 ***********************************
