@@ -1,0 +1,173 @@
+***********************************
+*       WELCOME TO NaN-AIR!       *
+***********************************
+
+What would you like to do?
+
+1: Create
+2: Get 
+3: Update
+q: Quit
+
+
+***********************************
+*             UPDATE              *
+***********************************
+
+What would you like to do?
+
+1: Update employee
+2: Update destination
+3: Update flight
+b: Back
+q: Quit
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+    **Please insert flight ID**    
+
+Flight ID:|
+
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+        ** Flight Information **
+
+Flight ID: NK223
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:20
+Repeat booking: No
+
+Is this the correct flight? (Y/N)
+|
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+  ** What information would you **
+        ** like to change? **
+
+1: Pilots
+2: Cabin Crew
+3: Time of flight
+b: Back
+q: Quit
+
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Captain ID:|
+
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Captain ID:JS#1
+Pilot ID:|
+
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Captain ID:JS#1
+Pilot ID: TI#3
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+        ** Flight Information **
+
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:20
+Repeat booking: No
+Captain: John Smith
+Pilot: Terry Indigo
+
+Is this information correct? (Y/N)
+|
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+        ** Flight Information **
+
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:20
+Repeat booking: No
+Captain: John Smith
+Pilot: Terry Indigo
+
+Would you like to man the cabin crew? (Y/N)
+|
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Flight attendant ID:|
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+        ** Flight Information **
+
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:20
+Repeat booking: No
+Captain: John Smith
+Pilot: Terry Indigo
+Flight attendant: James McAvoy
+
+Is this information correct? (Y/N)
+|
+
+***********************************
+*            SUCCESS!             *
+***********************************
+
+** Press enter to return to menu **
+
+
+***********************************
+*          UPDATE FLIGHT          *
+***********************************
+  ** What information would you **
+       ** like to change? **
+
+1: Address
+2: Home phone
+3: Mobile phone
+4: E-mail
+b: Back
+q: Quit
+
+
+***********************************
+*             UPDATE              *
+***********************************
+
+What would you like to do?
+
+1: Update employee
+2: Update destination
+3: Update flight
+b: Back
+q: Quit
