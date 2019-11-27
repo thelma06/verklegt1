@@ -1,0 +1,138 @@
+***********************************
+*       WELCOME TO NaN-AIR!       *
+***********************************
+
+What would you like to do?
+
+1: Create
+2: Get 
+3: Update
+q: Quit
+
+
+***********************************
+*             UPDATE              *
+***********************************
+
+What would you like to do?
+
+1: Update employee
+2: Update destination
+3: Update flight
+b: Back
+q: Quit
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+     **Please insert user ID**    
+
+User ID:|
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+    ** Please insert user ID **    
+
+User ID:JS#1
+
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+        ** User Information **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: Pilot
+
+Is this the correct user? (Y/N)
+|
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+  ** What information would you **
+        ** like to change? **
+
+1: Address
+2: Home phone
+3: Mobile phone
+4: E-mail
+b: Back
+q: Quit
+
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail:|
+
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+            
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.com
+
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+**Please verify the information**
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.com
+Occupation: Pilot
+
+Is this information correct? (Y/N)
+|
+
+***********************************
+*         UPDATE EMPLOYEE         *
+***********************************
+  ** What information would you **
+        ** like to change? **
+
+1: Address
+2: Home phone
+3: Mobile phone
+4: E-mail
+b: Back
+q: Quit
+
+***********************************
+*             UPDATE              *
+***********************************
+
+What would you like to do?
+
+1: Update employee
+2: Update destination
+3: Update flight route
+b: Back
+q: Quit
+

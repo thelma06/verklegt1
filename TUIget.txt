@@ -1,0 +1,70 @@
+***********************************
+*       WELCOME TO NaN-AIR!       *
+***********************************
+
+What would you like to do?
+
+1: Create
+2: Get 
+3: Update
+q: Quit
+
+
+***********************************
+*               GET               *
+***********************************
+
+What would you like to do?
+
+1: Get employee
+2: Get destination
+3: Get flight information
+4: Get flight schedule
+5: Get employee schedule
+b: Back
+q: Quit
+
+
+***********************************
+*           GET EMPLOYEE          *
+***********************************
+     **Please insert user ID**    
+
+User ID:|
+
+***********************************
+*           GET EMPLOYEE          *
+***********************************
+    ** Please insert user ID **    
+
+User ID:JS#1
+
+
+***********************************
+*           GET EMPLOYEE          *
+***********************************
+        ** User Information **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: Pilot
+
+
+***********************************
+*           GET EMPLOYEE          *
+***********************************
+
+What would you like to do?
+
+1: Get employee
+2: Get destination
+3: Get flight information
+4: Get flight schedule
+5: Get employee schedule
+b: Back
+q: Quit
+

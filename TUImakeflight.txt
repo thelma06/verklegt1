@@ -1,0 +1,188 @@
+***********************************
+*       WELCOME TO NaN-AIR!       *
+***********************************
+
+What would you like to do?
+
+1: Create
+2: Get 
+3: Update
+q: Quit
+
+
+***********************************
+*             CREATE              *
+***********************************
+
+What would you like to do?
+
+1: Create employee
+2: Create destination
+3: Create flight route
+4: Create flight
+b: Back
+q: Quit
+
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+ ** Please choose a destination **
+
+1: Longyearbyen
+2: Kulusuk
+3: Nuuk
+4: Thorshavn
+5: Tingwall
+
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+
+Destination: Nuuk
+Reuse previous booking? (Y/N)
+|
+
+
+//for No - go to choose departure
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Destination: Nuuk
+Departure date:|
+
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time:|
+
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:20
+Would you like to repeat this booking? (Y/N)
+|
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+Destination: Nuuk
+Departure date: 10/12/2019
+Departure time: 10:20
+Is this information correct? (Y/N)
+|
+
+***********************************
+*            SUCCESS!             *
+***********************************
+
+
+// if yes then this one
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+     **Choose booking below**
+
+Destination: Nuuk
+
+1: Time: 10:55
+2: Time: 15:50
+3: Time: 16:30
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail:|
+
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: (P)ilot, (C)abin Crew
+
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: Pilot
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+**Please verify the information**
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: Pilot
+
+Is this information correct? (Y/N)
+|
+
+
+***********************************
+*          CREATE FLIGHT          *
+***********************************
+
+What would you like to do?
+
+1: Create employee
+2: Create destination
+3: Create flight route
+b: Back
+q: Quit
+

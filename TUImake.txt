@@ -1,0 +1,165 @@
+***********************************
+*       WELCOME TO NaN-AIR!       *
+***********************************
+
+What would you like to do?
+
+1: Create
+2: Get 
+3: Update
+q: Quit
+
+
+***********************************
+*             CREATE              *
+***********************************
+
+What would you like to do?
+
+1: Create employee
+2: Create destination
+3: Create flight route
+4: Create flight
+b: Back
+q: Quit
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name:|
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth:|
+
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address:|
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone:|
+
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone:|
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail:|
+
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: (P)ilot, (C)abin Crew
+
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please fill in the information**
+            **below**
+
+         ** Q to quit **
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: Pilot
+
+***********************************
+*         CREATE EMPLOYEE         *
+***********************************
+**Please verify the information**
+
+Name: John Smith
+Date of birth: 23/07/1973
+Address: Frakkarstígur 10
+Home phone: 555-2020
+Mobile phone: 666-2020
+E-mail: john.smith@nan.chuck
+Occupation: Pilot
+
+Is this information correct? (Y/N)
+|
+
+
+***********************************
+*             CREATE              *
+***********************************
+
+What would you like to do?
+
+1: Create employee
+2: Create destination
+3: Create flight route
+b: Back
+q: Quit
+
