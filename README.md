@@ -48,8 +48,14 @@ Markmiðið:
 -----------------------------------------------------------------------------------------------
 
 Dagur 3 - 27.11.2019
-
+Miðvikudagur
 ------------------------------------------------------------------------------------------------
+12.20 Morgunfundur
+12.20 Eva og Thelma byrja að vinna í Happy Paths og stöðuriti
+17.00 Steinarnir* mættu í sólina
+17.30 Eva mætir
+18.00 Ingibjörg mætti
+18.20 Thelma mætti
 
 
 Morgunfundur online á facebook spjalli 12.20
@@ -77,11 +83,14 @@ Happy Paths klárað, hópurinn búinn að skoða og koma með comment.
 B kröfur og uppfærsla á kröfulista og notendatilvikum klárað.
 Eva búin að setja skýrsluna upp, næst röðum við öllum hlutum skýrslu verður bætt inn.
 
+Stemmningin góð, allir fóru hamingjusamir hóm engin ósætti ennþá.
+
 ******************************************************************************************************
 *Þorsteinn og Gunnsteinn
 ******************************************************************************************************
 
 Home Time: 
+
 --------------------------------------------------------------------------------------------------------------------
 Dagur 4 - 28.11.2019
 --------------------------------------------------------------------------------------------------------------------
