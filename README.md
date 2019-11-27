@@ -46,3 +46,24 @@ Markmiðið:
  
  HOME TIME 22:00
 -----------------------------------------------------------------------------------------------
+
+Dagur 3 - 27.11.2019
+
+------------------------------------------------------------------------------------------------
+
+
+Morgunfundur online á facebook spjalli 12.20
+Eva tók að sér Happy paths og vann í því frá 12 
+Thelma tók að sér að laga stöðuritið og vann í því frá 12
+
+Ákváðum að hittast í Sólinni HR kl. 17 - 
+
+Steinarnir* mættu stundvíslega kl.17
+Eva mætti kl.17.30
+Ingibjörg mætti 18.00
+
+Ákváðum að bæta við fleiri B kröfum. Markmið kvöldsins er að bæta B kröfum á kröfulista, use cases, stöðurit og klasarit - einnig að klára Happy Paths.
+
+*Þorsteinn og Gunnsteinn
+
+
