@@ -89,8 +89,23 @@ Stemmningin góð, allir fóru hamingjusamir hóm engin ósætti ennþá.
 18.00 Ingibjörg mætti
 18.20 Thelma mætti
 
-Home Time: 
+Home Time: 22.30
 
 --------------------------------------------------------------------------------------------------------------------
 Dagur 4 - 28.11.2019
+FIMMTUDAGUR
 --------------------------------------------------------------------------------------------------------------------
+Morgunfundur 10.22 Online - Facebook spjall
+
+Markmið dagsins:
+Vinna í Klasariti [ ]
+Klára Happy Paths [ ]
+Klára Notendatilvik og kröfulista [ ]
+Vinna í Stöðuriti [ ]
+
+Raða skýrslu því sem er tilbúið inn í skýrsluna og fara saman yfir öll rit og gögn, metum svo hvort við bætum fleiri B eða C kröfum við.
+
+Vinnudagur hefst 17.00 í HR skv. plani.
+
+10.20 Morgunfundur
+
