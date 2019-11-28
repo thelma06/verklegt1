@@ -98,17 +98,21 @@ FIMMTUDAGUR
 Morgunfundur 10.22 Online - Facebook spjall
 
 Markmið dagsins:
-Vinna í Klasariti [ ]
-Klára Happy Paths [ ]
-Klára Notendatilvik og kröfulista [ ]
-Vinna í Stöðuriti [ ]
+Vinna í Klasariti [x]
+Klára Happy Paths [x]
+Klára Notendatilvik og kröfulista [x]
+Vinna í Stöðuriti [x]
 
 Raða skýrslu því sem er tilbúið inn í skýrsluna og fara saman yfir öll rit og gögn, metum svo hvort við bætum fleiri B eða C kröfum við.
 
 Vinnudagur hefst 17.00 í HR skv. plani.
 
 10.20 Morgunfundur
+14.45 Happy Path User Testing Eva og Ingibjörg
 17.00 Mæting í HR og vinnudagur hefst
+22.00 Home Time
+
+Planað að hittast á morgun utan HR og leggja lokahönd á skýrslu + viðbætur, yfirferð og gera eina auka notendaprófun.
 
 
 *******************************************************************************************************************
@@ -116,3 +120,10 @@ Skrýtnustu kommentin:
 *þú ert ekki alvöru pabbi minn
 
 *******************************************************************************************************************
+
+-------------------------------------------------------------------------------------------------------------------
+Dagur 5 - 29.11.2019
+Föstudagur - Fyrsti skiladagur
+-------------------------------------------------------------------------------------------------------------------
+
+
