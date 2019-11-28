@@ -108,4 +108,11 @@ Raða skýrslu því sem er tilbúið inn í skýrsluna og fara saman yfir öll 
 Vinnudagur hefst 17.00 í HR skv. plani.
 
 10.20 Morgunfundur
+17.00 Mæting í HR og vinnudagur hefst
 
+
+*******************************************************************************************************************
+Skrýtnustu kommentin:
+*þú ert ekki alvöru pabbi minn
+
+*******************************************************************************************************************
