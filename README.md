@@ -126,4 +126,5 @@ Dagur 5 - 29.11.2019
 Föstudagur - Fyrsti skiladagur
 -------------------------------------------------------------------------------------------------------------------
 
-
+9.40 Morgunfundur - niðurstaða: allir þurfa meira kaffi til að halda lífi. 
+Markmiðið er að klára að setja skýrsluna saman, lesa yfir og fara yfir öll rit, kröfulista o.s.frv. 
