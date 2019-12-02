@@ -138,10 +138,15 @@ Mánudagur
 -------------------------------------------------------------------------------------------------------------------
 
 8.35 Morgunfundur á Facebook ákávðum að byrja kl.17 í HR
+
 12-13 Mættum á fyrirlestur
+
 17:00 Mæting - vinnudagur hefst
+
 17.10 Förum yfir öll use case og kröfulista - vorum sammála eftir að hafa hugsa um þetta um helgina að bæta við B kröfum sem við viljum geta klára og setjum í lokaskýrslu ef við náum að stja upp kóðann.
+
 18.30 - 20.30 Klárum að mappa alla klasa og gera plan á hverju við ætlum að byrja og hver gerir hvað.
+
 20.30 förum yfir Git ákváðum að fara betur yfir Git og rifja betur upp klasa
 
 
