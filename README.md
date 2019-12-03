@@ -147,7 +147,7 @@ Mánudagur
 
 18.30 - 20.30 Klárum að mappa alla klasa og gera plan á hverju við ætlum að byrja og hver gerir hvað.
 
-20.30 förum yfir Git ákváðum að fara betur yfir Git og rifja betur upp klasa
+20.30 Ákváðum að fara betur yfir Git og rifja betur upp klasa
 
 
 
