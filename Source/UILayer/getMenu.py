@@ -15,7 +15,7 @@ class Get_Menu:
             print("2: Get destination")
             print("3: Get flight information")
             print("4: Get flight schedule")
-            print("4: Get employee schedule")
+            print("5: Get employee schedule")
             print("b: Back")
             print("q: Quit")
 
