@@ -149,5 +149,10 @@ Mánudagur
 
 20.30 Ákváðum að fara betur yfir Git og rifja betur upp klasa
 
+---------------------------------------------------------------------------------------------------------------------
+Dagur 7 - 3.12.2019
+Þriðjudagur
+---------------------------------------------------------------------------------------------------------------------
+Morgunfundur 17.00 plús online spjall frá cirka 10-...
 
-
+17.00 Mæting í HR staðfestum að allt sé komið niður á blað og fórum í að skoða kóða.
