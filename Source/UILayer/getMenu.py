@@ -1,10 +1,11 @@
-from UILayer.mainMenu import Main_menu
+# from UILayer.mainMenu import Main_menu
 
 class Get_Menu:
 
     def get_menu(self):
         action = ""
-        while(action != "q"):
+        while(action != "b"):
+            print("")
             print("*********************************************")
             print("*                                           *")
             print("*                   GET                     *")
@@ -17,10 +18,10 @@ class Get_Menu:
             print("4: Get flight schedule")
             print("5: Get employee schedule")
             print("b: Back")
-            print("q: Quit")
+            # print("q: Quit")
 
             action = input("Choose an option: ").lower()
 
-            if action == "b":
-                ui = Main_menu()
-                ui.main_menu()
+            # if action == "b":
+            #     ui = Main_menu()
+            #     ui.main_menu()

@@ -1,6 +1,6 @@
 from UILayer.createMenu import Create_Menu
 from UILayer.getMenu import Get_Menu
-
+from UILayer.updateMenu import Update_Menu
 
 class Main_menu:
 
@@ -31,4 +31,7 @@ class Main_menu:
                 ui = Get_Menu()
                 ui.get_menu()
             elif action == "3":
-                ui = 
+                ui = Update_Menu()
+                ui.update_menu()
+            else:
+                action = "q"
