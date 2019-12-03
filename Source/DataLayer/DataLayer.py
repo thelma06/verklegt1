@@ -1,6 +1,7 @@
 #Just a test file
 
-from ModuleClasses.Destination import Destination
+from ModuleClasses import Destination
+
 
 class IOAPI():
 
@@ -14,6 +15,7 @@ class IOAPI():
             ids = destination.get_id()
             place = destination.get_destination()
             destination_file.write("{},{}\n".format(ids, place))
+            print(ids,place)
 
 
    # update destination
@@ -23,6 +25,7 @@ class IOAPI():
                 for line in destination_file.readlines():
                     ids, place = line.split(",")
                     new_destination = Destination(ids,place)
-                    self.__destination.append(new_destination)    
+                    self.__destination.append(new_destination)  
+                    print(new_destination)
         
         return self.__destination
