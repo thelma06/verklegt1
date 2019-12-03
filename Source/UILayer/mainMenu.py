@@ -1,3 +1,5 @@
+from UILayer.createMenu import Create_Menu
+from UILayer.getMenu import Get_Menu
 
 
 class Main_menu:
@@ -7,6 +9,7 @@ class Main_menu:
     def main_menu(self):
         action = ""
         while(action != "q"):
+            print("")
             print("*********************************************")
             print("*                                           *")
             print("*            WELCOME TO NaN-AIR!            *")
@@ -20,3 +23,7 @@ class Main_menu:
             print("")
 
             action = input("Choose an option: ").lower()
+
+            if action == "1":
+                ui = Create_Menu()
+                ui.create_menu()
