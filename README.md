@@ -160,4 +160,6 @@ Morgunfundur 17.00 plús online spjall frá cirka 10-...
 =======
 17.00 Mæting í HR staðfestum að allt sé komið niður á blað og fórum í að skoða kóða.
 
+22.30 kóðun komin vel af stað HOME TIME.
+
 >>>>>>> f429b5d393cbd7e6d84ee21fad1ca436bbfaf414
