@@ -1,24 +1,28 @@
 #Just a test file
 
+from ModuleClasses.Destination import Destination
+
 class IOAPI():
 
     def __init__(self):
         self.__destination = []
 
-    def add_destination(self, video):
+
+    def add_destination(self,destination):
         # first add to file then to private list
         with open("Destination.csv", "a+") as destination_file:
-            title = destination.get_place()
-            genre = video.get_genre()
-            length = video.get_length()
-            videos_file.write("{},{},{}\n".format(title, genre, length))
+            ids = destination.get_id()
+            place = destination.get_destination()
+            destination_file.write("{},{}\n".format(ids, place))
 
-    def get_videos(self):
-        if self.__videos == []:
-            with open("./data/videos.txt", "r") as video_file:
-                for line in video_file.readlines():
-                    title, genre, length = line.split(",")
-                    new_video = Video(title, genre, length)
-                    self.__videos.append(new_video)    
+
+   # update destination
+    def update_destination(self):
+        if self.__destination == []:
+            with open("Destination.csv", "r") as destination_file:
+                for line in destination_file.readlines():
+                    ids, place = line.split(",")
+                    new_destination = Destination(ids,place)
+                    self.__destination.append(new_destination)    
         
-        return self.__videos
+        return self.__destination
