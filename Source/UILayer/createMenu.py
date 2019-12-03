@@ -102,3 +102,9 @@ class Create_Menu:
             print("**   Press enter to return to main menu    **")
         if correct == "n":
             self.create_destination()
+
+    def create_flight(self):
+        pass
+
+    def create_voyage(self):
+        pass
