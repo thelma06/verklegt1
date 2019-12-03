@@ -155,5 +155,9 @@ Dagur 7 - 3.12.2019
 ---------------------------------------------------------------------------------------------------------------------
 Morgunfundur 17.00 plús online spjall frá cirka 10-...
 
+<<<<<<< HEAD
+17.00 Mæting í HR staðfestum að allt sé komið niður á blað og fórum í að skoða kóða.
+=======
 17.00 Mæting í HR staðfestum að allt sé komið niður á blað og fórum í að skoða kóða.
 
+>>>>>>> f429b5d393cbd7e6d84ee21fad1ca436bbfaf414
