@@ -24,7 +24,7 @@ def add_destinations(new_ids,new_place):
         csv_file.write(myCSVrow)
 
 
-new_ids = str('NewID')
-new_place = str('NewPlace')
+new_ids = str('NewIDdkdkd')
+new_place = str('NewPlacekdsæd')
 add_destinations(new_ids,new_place)
 get_destinations()
