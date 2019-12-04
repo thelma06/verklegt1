@@ -22,3 +22,6 @@ class DataAPI:
                     self.__videos.append(new_video)    
         
         return self.__videos
+
+    def __str__(self):
+        return "{},{},{}\n".format(title, genre, length)
