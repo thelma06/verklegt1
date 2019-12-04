@@ -167,5 +167,5 @@ Dagur 8 - 4.12.2019
 Miðvikudagur
 ---------------------------------------------------------------------------------------------------------------------
 
-10.20 Online morgunfundue Facebook spjall - Ákávðum að hittast kl.17.30 í HR
+10.20 Online morgunfundue Facebook spjall - Ákváðum að hittast kl.17.30 í HR
 17.30 Vinnudagur hefst
