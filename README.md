@@ -162,4 +162,10 @@ Morgunfundur 17.00 plús online spjall frá cirka 10-...
 
 22.30 kóðun komin vel af stað HOME TIME.
 
->>>>>>> f429b5d393cbd7e6d84ee21fad1ca436bbfaf414
+---------------------------------------------------------------------------------------------------------------------
+Dagur 8 - 4.12.2019
+Miðvikudagur
+---------------------------------------------------------------------------------------------------------------------
+
+10.20 Online morgunfundue Facebook spjall - Ákávðum að hittast kl.17.30 í HR
+17.30 Vinnudagur hefst
