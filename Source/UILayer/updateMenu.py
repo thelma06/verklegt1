@@ -2,6 +2,11 @@
 
 class Update_Menu:
 
+    def __init__(self):
+        self.update_employee_lst = []
+        self.update_destination_lst = []
+        self.update_flight_lst = []
+
     def update_menu(self):
         action = ""
         while(action != "b"):
@@ -22,15 +27,21 @@ class Update_Menu:
             action = input("Choose an option: ").lower()
 
             if action == "2":
-                self.update_destination()
+                self.__update_destination()
             
             # else:
             #     action = "q"
 
-    def update_employee(self):
-        pass
+    def __update_employee_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*              UPDATE EMPLOYEE              *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
 
-    def update_destination_header(self):
+    def __update_destination_header(self):
         print("")
         print("*********************************************")
         print("*                                           *")
@@ -38,16 +49,29 @@ class Update_Menu:
         print("*                                           *")
         print("*********************************************")
         print("")
+    
+    def __update_flight_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*               UPDATE FLIGHT               *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
 
-    def update_destination(self):
-        self.update_destination_header()
+    def __update_employee(self):
+        self.__update_employee_header()
+        pass
+
+    def __update_destination(self):
+        self.__update_destination_header()
         print("   **    Please insert Airport name     **   ")
         print("")
         airport_name_str = input("Airport name: ")
         ''' Hér þarf að gera ráð fyrir kóðanum til að kalla í 
             API sem síðan sækir gögnin niður í data layer og
             skilar þeim aftur.'''
-        self.update_destination_header()
+        self.__update_destination_header()
         print("     **    Destination information    **     ")
         print("")
         print("Country: " + "Grænland") #Breyturnar eru ekki tilbúnar
@@ -60,7 +84,7 @@ class Update_Menu:
         correct_str = input("Is this the correct Airport? (Y/N): ").lower()
 
         if correct_str == "y":
-            self.update_destination_header()
+            self.__update_destination_header()
             print("*********************************************")
             print("    ** What information would you like to    ")
             print("                 change? **                  ")
@@ -71,5 +95,6 @@ class Update_Menu:
             print("")
             action = input("Choose an option: ").lower()
 
-    def update_flight(self):
+    def __update_flight(self):
+        self.__update_flight_header()
         pass

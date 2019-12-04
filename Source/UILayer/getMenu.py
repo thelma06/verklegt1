@@ -2,6 +2,13 @@
 
 class Get_Menu:
 
+    def __init__(self):
+        self.get_employee_lst = []
+        self.get_destination_lst = []
+        self.get_flight_info_lst = []
+        self.get_flight_schedule_lst = []
+        self.get_employee_schedule_lst = []
+
     def get_menu(self):
         action = ""
         while(action != "b"):
@@ -24,19 +31,59 @@ class Get_Menu:
             action = input("Choose an option: ").lower()
 
             if action == "2":
-                self.get_destination()
+                self.__get_destination()
     
-    def get_employee(self):
+    def __get_employee_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*               GET EMPLOYEE                *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+
+    def __get_destination_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*              GET DESTINATION              *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+    
+    def __get_flight_information_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*          GET FLIGHT INFORMATION           *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+    
+    def __get_flight_schedule_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*            GET FLIGHT SCHEDULE            *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+    
+    def __get_employee_schedule_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*         GET EMPLOYEE INFORMATION          *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+
+    def __get_employee(self):
+        self.__get_employee_header()
         pass
 
-    def get_destination(self):
-        print("")
-        print("*********************************************")
-        print("*                                           *")
-        print("*             GET DESTINATION               *")
-        print("*                                           *")
-        print("*********************************************")
-        print("")
+    def __get_destination(self):
+        self.__get_destination_header()
         print("   **    Please insert Airport name     **   ")
         print("")
         airport_name_str = input("Airport name: ")
@@ -45,13 +92,7 @@ class Get_Menu:
             um þetta destination.'''
         ''' Hér kæmi virknin sem þarf til að birta gögnin sem logic
             layer API skilar upp.'''
-        print("")
-        print("*********************************************")
-        print("*                                           *")
-        print("*             GET DESTINATION               *")
-        print("*                                           *")
-        print("*********************************************")
-        print("")
+        self.__get_destination_header()
         print("     **    Destination information    **     ")
         print("")
         print("Country: " + "Grænland") #Breyturnar eru ekki tilbúnar
@@ -64,11 +105,14 @@ class Get_Menu:
         print("**   Press enter to return to main menu    **")
 
 
-    def get_flight_information(self):
+    def __get_flight_information(self):
+        self.__get_flight_information_header()
         pass
 
-    def get_flight_schedule(self):
+    def __get_flight_schedule(self):
+        self.__get_flight_schedule_header()
         pass
 
-    def get_employee_schedule(self):
+    def __get_employee_schedule(self):
+        self.__get_employee_schedule_header()
         pass

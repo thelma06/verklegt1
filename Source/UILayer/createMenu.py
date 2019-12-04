@@ -2,6 +2,12 @@
 
 class Create_Menu:
 
+    def __init__(self):
+        self.create_employee_lst = []
+        self.create_destination_lst = []
+        self.create_flight_lst = []
+        self.create_voyage_lst = []
+
     def create_menu(self):
         action = ""
         while(action != "b"):
@@ -23,15 +29,20 @@ class Create_Menu:
             action = input("Choose an option: ").lower()
 
             if action == "1":
-                self.create_employee()
+                self.__create_employee()
             elif action == "2":
-                self.create_destination()
+                self.__create_destination()
 
-    def create_employee(self):
-        # action2 = ""
-        ''' Þurfum við ekki að hafa test á því að inputið sé á
-            réttur formatti, t.d. tölustafir þar sem eiga að
-            vera tölustafir og e-mail rétt skráð.'''
+    def __success_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*                  SUCCESS                  *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+    
+    def __create_employee_header(self):
         print("")
         print("*********************************************")
         print("*                                           *")
@@ -39,6 +50,40 @@ class Create_Menu:
         print("*                                           *")
         print("*********************************************")
         print("")
+
+    def __create_destination_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*            CREATE DESTINATION             *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+
+    def __create_flight_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*               CREATE FLIGHT               *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+
+    def __create_voyage_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*               CREATE VOYAGE               *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+
+    def __create_employee(self):
+        # action2 = ""
+        ''' Þurfum við ekki að hafa test á því að inputið sé á
+            réttur formatti, t.d. tölustafir þar sem eiga að
+            vera tölustafir og e-mail rétt skráð.'''
+        self.__create_employee_header()
         print("**  Please fill in the information below   **")
         print("")
         name_str = input("Name: ")
@@ -52,31 +97,19 @@ class Create_Menu:
         correct = input("Is this information correct? (Y/N)").lower()
 
         if correct == "y":
-            print("")
-            print("*********************************************")
-            print("*                                           *")
-            print("*                  SUCCESS                  *")
-            print("*                                           *")
-            print("*********************************************")
-            print("")
+            self.__success_header()
             ''' Hér þarf að kalla í API niður í logic layer þar sem inputið
                 er sett í rétt format áður en það fer í data layer til 
                 skráningar.'''
             print("**   Press enter to return to main menu    **")
         if correct == "n":
-            self.create_employee()
+            self.__create_employee()
     
-    def create_destination(self):
+    def __create_destination(self):
         ''' Þurfum við ekki að hafa test á því að inputið sé á
             réttur formatti, t.d. tölustafir þar sem eiga að
             vera tölustafir og e-mail rétt skráð.'''
-        print("")
-        print("*********************************************")
-        print("*                                           *")
-        print("*            CREATE DESTINATION             *")
-        print("*                                           *")
-        print("*********************************************")
-        print("")
+        self.__create_destination_header()
         print("**  Please fill in the information below   **")
         print("")
         country_str = input("Country: ")
@@ -89,22 +122,18 @@ class Create_Menu:
         correct = input("Is this information correct? (Y/N)").lower()
 
         if correct == "y":
-            print("")
-            print("*********************************************")
-            print("*                                           *")
-            print("*                  SUCCESS                  *")
-            print("*                                           *")
-            print("*********************************************")
-            print("")
+            self.__success_header()
             ''' Hér þarf að kalla í API niður í logic layer þar sem inputið
                 er sett í rétt format áður en það fer í data layer til 
                 skráningar.'''
             print("**   Press enter to return to main menu    **")
         if correct == "n":
-            self.create_destination()
+            self.__create_destination()
 
-    def create_flight(self):
+    def __create_flight(self):
+        self.__create_flight_header()
         pass
 
-    def create_voyage(self):
+    def __create_voyage(self):
+        self.__create_voyage_header()
         pass
