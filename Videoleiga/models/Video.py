@@ -6,10 +6,10 @@ class Video:
         self.length = length
 
     def get_title(self):
-        return self.title
+        return str(self.title)
     
     def get_genre(self):
-        return self.genre
+        return str(self.genre)
     
     def get_length(self):
-        return self.length
+        return str(self.length)

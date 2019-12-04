@@ -26,6 +26,4 @@ class SalesmanUI:
 
             elif action == "2":
                 videos = self.__video_service.get_videos()
-                for line in videos:
-                    print(line)
                 print(videos)

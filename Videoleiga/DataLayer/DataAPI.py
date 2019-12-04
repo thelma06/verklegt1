@@ -18,10 +18,7 @@ class DataAPI:
             with open("./data/videos.txt", "r") as video_file:
                 for line in video_file.readlines():
                     title, genre, length = line.split(",")
-                    new_video = Video(title, genre, length)
+                    new_video = "{}, {}, {}".format(title, genre, length)
                     self.__videos.append(new_video)    
         
         return self.__videos
-
-    def __str__(self):
-        return "{},{},{}\n".format(title, genre, length)
