@@ -93,6 +93,7 @@ class Create_Menu:
         mobile_phone_str = input("Mobile phone: ")
         email_str = input("E-mail: ")
         occupation_str = input("Occupation: ")
+        airplane_license_str = inptu("Airplane license: ")
         print("")
         correct = input("Is this information correct? (Y/N)").lower()
 

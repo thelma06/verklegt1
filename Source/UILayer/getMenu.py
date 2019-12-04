@@ -21,9 +21,12 @@ class Get_Menu:
             print("")
             print("1: Get employee")
             print("2: Get destination")
-            print("3: Get flight information")
+            print("3: Get airplane information")
             print("4: Get flight schedule")
             print("5: Get employee schedule")
+            print("6: Get pilots by ariplane license")
+            print("7: Get pilots by airplane type")
+            print("8: Get all airplanes")
             print("b: Back")
             print("")
             # print("q: Quit")
@@ -51,11 +54,11 @@ class Get_Menu:
         print("*********************************************")
         print("")
     
-    def __get_flight_information_header(self):
+    def __get_airplane_information_header(self):
         print("")
         print("*********************************************")
         print("*                                           *")
-        print("*          GET FLIGHT INFORMATION           *")
+        print("*         GET AIRPLANE INFORMATION          *")
         print("*                                           *")
         print("*********************************************")
         print("")
@@ -105,8 +108,14 @@ class Get_Menu:
         print("**   Press enter to return to main menu    **")
 
 
-    def __get_flight_information(self):
+    def __get_airplane_information(self):
         self.__get_flight_information_header()
+        print("    **    Please an Airplane name     **     ")
+        print("")
+        ''' Hér langar mig að fá lista þannig að hægt sé að velja
+            rétta flugvél í staðinn fyrir að þurfa að muna nafnið
+            á vélinni.'''
+        airplane_name_str = ""
         pass
 
     def __get_flight_schedule(self):
