@@ -169,3 +169,4 @@ Miðvikudagur
 
 10.20 Online morgunfundue Facebook spjall - Ákváðum að hittast kl.17.30 í HR
 17.30 Vinnudagur hefst
+17.30 - Stúderuðum Video kóðann og fengum hann til að virka. Steppuðum okkur í gegnum kóðann og fundum út hvernig allt virkar. Skoðum restina í sinhvoru lagi og skiptum með okkur verkum með að útfæra kóðann fyrir Destination.
