@@ -9,6 +9,7 @@ class Create_Menu:
         # self.create_employee_lst = []
         # self.create_destination_lst = []
         # self.create_flight_lst = []
+        # self.create_airplane_lst = []
         # self.create_voyage_lst = []
 
     def create_menu(self):
@@ -25,6 +26,7 @@ class Create_Menu:
             print("2: Create destination")
             print("3: Create flight")
             print("4: Create voyage")
+            print("5: Create voyage")
             print("b: Back")
             # print("q: Quit")
             print("")
@@ -35,6 +37,8 @@ class Create_Menu:
                 self.__create_employee()
             elif action == "2":
                 self.__create_destination()
+            elif action == "5":
+                self.__create_airplane()
 
     def __success_header(self):
         print("")
@@ -121,7 +125,7 @@ class Create_Menu:
     
     def __create_destination(self):
         ''' Þurfum við ekki að hafa test á því að inputið sé á
-            réttur formatti, t.d. tölustafir þar sem eiga að
+            réttu formatti, t.d. tölustafir þar sem eiga að
             vera tölustafir og e-mail rétt skráð.'''
         self.__create_destination_header()
         print("**  Please fill in the information below   **")
@@ -152,7 +156,22 @@ class Create_Menu:
 
     def __create_airplane(self):
         self.__create_airplane_header()
-        pass
+        print("**  Please fill in the information below   **")
+        print("")
+        #airplane_id_str = input("Country: ")
+        name_str = input("Name: ")
+        model_str = input("Model: ")
+        producer_str = input("Producer: ")
+        number_of_seats_str = input("Enter number of passenger seats: ")
+        print("")
+        correct = input("Is this information correct? (Y/N)").lower()
+
+        if correct == "y":
+            self.__success_header()
+            ''' '''
+            print("**   Press enter to return to main menu    **")
+        if correct == "n":
+            self.__create_destination()
 
     def __create_voyage(self):
         self.__create_voyage_header()
