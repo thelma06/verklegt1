@@ -34,6 +34,7 @@ class DataAPI:
         # return self.__videos
 
 
+
     def add_airplane(self, airplane):
         # first add to file then to private list
         with open("./data/aircraft.csv", "a+", newline='', encoding='utf-8-sig') as csv_file:
@@ -44,20 +45,11 @@ class DataAPI:
         csv_file.close()
 
     
+
     def get_airplane(self):
         if self.__airplane == []:
             airplane_str = ""
-            # destinations_str = "{}\t\t {}\t\t {}\t\t {}\t\t {}\t\t {}\n".format("Country", "Airport", "Duration", "Distance", "Contact name", "Contact phone")
-            with open("./data/Aicraft.csv", "r") as aircraft_file:
-                for line in aircraft_file.readlines():
-                    name, model, producer, number_of_seats = line.split(",")
-                    # title, genre, length = line.split(",")
-                    aircraft_str += "{}, {}, {}, {}, {}, {}".format(name, model, producer, number_of_seats)
-                    # videos_str += "{}\t\t {}\t\t {}".format(title, genre, length)
-                    # new_video = "{}, {}, {}\n".format(title, genre, length)
-                    # self.__videos.append(new_video)
-        
-        return aircraft_str
-        # return self.__videos
-
-
+            with open("./data/aicraft.csv", newline='', encoding='utf-8-sig') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    print(row['name'] + ', ' + row['model'] + ', ' + row['producer'] + ', ' + row['number_of_seats'])
