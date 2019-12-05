@@ -45,7 +45,7 @@ class DataAPI:
         aircraft_file.close()
 
     
-      def get_airplane(self):
+    def get_airplane(self):
         if self.__airplane == []:
             airplane_str = ""
             # destinations_str = "{}\t\t {}\t\t {}\t\t {}\t\t {}\t\t {}\n".format("Country", "Airport", "Duration", "Distance", "Contact name", "Contact phone")
