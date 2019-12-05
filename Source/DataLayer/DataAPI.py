@@ -32,3 +32,33 @@ class DataAPI:
         
         return destinations_str
         # return self.__videos
+
+
+    def add_airplane(self, airplane):
+        # first add to file then to private list
+        with open("./data/Aircraft.csv", "a+") as aircraft_file:
+            name = airplane.get_name()
+            model = airplane.get_model()
+            producer = airplane.get_producer()
+            number_of_seats = airplane.get_number_of_seats()
+            aircraft_file.write("{}, {}, {}, {}, \n".format(name, model, producer, number_of_seats))
+        aircraft_file.close()
+
+    
+      def get_airplane(self):
+        if self.__airplane == []:
+            airplane_str = ""
+            # destinations_str = "{}\t\t {}\t\t {}\t\t {}\t\t {}\t\t {}\n".format("Country", "Airport", "Duration", "Distance", "Contact name", "Contact phone")
+            with open("./data/Aicraft.csv", "r") as aircraft_file:
+                for line in aircraft_file.readlines():
+                    name, model, producer, number_of_seats = line.split(",")
+                    # title, genre, length = line.split(",")
+                    aircraft_str += "{}, {}, {}, {}, {}, {}".format(name, model, producer, number_of_seats)
+                    # videos_str += "{}\t\t {}\t\t {}".format(title, genre, length)
+                    # new_video = "{}, {}, {}\n".format(title, genre, length)
+                    # self.__videos.append(new_video)
+        
+        return aircraft_str
+        # return self.__videos
+
+
