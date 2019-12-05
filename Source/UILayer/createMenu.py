@@ -1,11 +1,13 @@
 # from UILayer.mainMenu import Main_menu
 from LogicLayer.DestinationAPI import DestinationAPI
 from models.Destination import Destination
+from models.Employee import Employee
 
 class Create_Menu:
 
     def __init__(self):
         self.__destination_service = DestinationAPI()
+        self.__employee_service = DestinationAPI() #ath að breyta!
         # self.create_employee_lst = []
         # self.create_destination_lst = []
         # self.create_flight_lst = []
@@ -90,24 +92,26 @@ class Create_Menu:
         print("**  Please fill in the information below   **")
         print("")
         name_str = input("Name: ")
-        DOB_str = input("Date of birth (dd/mm/yyyy): ")
+        SO_str = input("Social Security Number: ")
         address_str = input("Address: ")
         home_phone_str = input("Home phone: ")
-        mobile_phone_str = input("Mobile phone: ")
+        cell_phone_str = input("Cell phone: ")
         email_str = input("E-mail: ")
-        occupation_str = input("Occupation: ")
-        airplane_license_str = inptu("Airplane license: ")
+        #occupation_str = input("Occupation: ")
+        #airplane_license_str = input("Airplane license: ")
         print("")
         correct = input("Is this information correct? (Y/N)").lower()
 
         if correct == "y":
             self.__success_header()
+            new_employee = Employee(name_str, SO_str, address_str, home_phone_str, cell_phone_str, email_str)
+            self.__employee_service.add_employee(new_employee)
             ''' Hér þarf að kalla í API niður í logic layer þar sem inputið
                 er sett í rétt format áður en það fer í data layer til 
                 skráningar.'''
             print("**   Press enter to return to main menu    **")
         if correct == "n":
-            self.__create_employee()
+            self.__create_destination()
     
     def __create_destination(self):
         ''' Þurfum við ekki að hafa test á því að inputið sé á
