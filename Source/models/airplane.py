@@ -1,7 +1,7 @@
 
 class Plane:
 
-    def __init__(self, name = "", model = "", producer = "", number_of_seats = "")
+    def __init__(self, name = "", model = "", producer = "", number_of_seats = ""):
         #self.plane_ID = plane_ID
         self.name = name
         self.model = model
