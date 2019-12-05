@@ -22,8 +22,12 @@ class DataAPI:
 
     def get_destinations(self):
         if self.__destinations == []:
-            destinations_str = ""
+            # header_str = "{}, {}, {}, {}, {}, {}".format('Country', 'Airport', 'Duration', 'Distance', 'Contact name', 'Contact phone')
+            # print(header_str)
             with open("./data/destinations.csv", newline='', encoding='utf-8-sig') as csvfile:
                 reader = csv.DictReader(csvfile)
                 for row in reader:
                     print(row['country'] + ', ' + row['airport'] + ', ' + row['duration'] + ', ' + row['distance'] + ', ' + row['contact_name'] + ', ' + row['contact_phone'])
+    
+    def update_destination(self, airport_name):
+        pass
