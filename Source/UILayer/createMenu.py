@@ -84,23 +84,44 @@ class Create_Menu:
         print("")
 
     def __create_employee(self):
-        # action2 = ""
         ''' Þurfum við ekki að hafa test á því að inputið sé á
             réttur formatti, t.d. tölustafir þar sem eiga að
             vera tölustafir og e-mail rétt skráð.'''
+        occupation_choice = ""
+        self.__create_employee_header()
+        print("** Please choose occupation **")
+        print("1: Captain")
+        print("2: Pilot")
+        print("3: Flight Attendant")
+        print("4: Flight Service Manager")
+        print("b: Back")
+            # print("q: Quit")
+        print("")
+
+        occupation_choice = input("Choose an option: ").lower()
+        if occupation_choice == "1":
+            occupation_str = "Captain"
+        elif occupation_choice == "2":
+            occupation_str = "Pilot"
+        elif occupation_choice == "3":
+            occupation_str = "Flight Attendant"
+        elif occupation_choice == "4":
+            occupation_str = "Flight Service Manager"
+        elif occupation_choice == "b":
+            
         self.__create_employee_header()
         print("**  Please fill in the information below   **")
         print("")
+        print("Occupation: ", occupation_str)
         name_str = input("Name: ")
         SO_str = input("Social Security Number: ")
         address_str = input("Address: ")
         home_phone_str = input("Home phone: ")
         cell_phone_str = input("Cell phone: ")
         email_str = input("E-mail: ")
-        #occupation_str = input("Occupation: ")
         #airplane_license_str = input("Airplane license: ")
         print("")
-        correct = input("Is this information correct? (Y/N)").lower()
+        correct = input("Is this information correct? (Y/N) ").lower()
 
         if correct == "y":
             self.__success_header()
