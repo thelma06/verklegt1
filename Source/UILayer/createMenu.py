@@ -72,6 +72,15 @@ class Create_Menu:
         print("*********************************************")
         print("")
 
+    def __create_airplane_header(self):
+        print("")
+        print("*********************************************")
+        print("*                                           *")
+        print("*               CREATE PLANE                *")
+        print("*                                           *")
+        print("*********************************************")
+        print("")
+
     def __create_voyage_header(self):
         print("")
         print("*********************************************")
@@ -80,6 +89,7 @@ class Create_Menu:
         print("*                                           *")
         print("*********************************************")
         print("")
+
 
     def __create_employee(self):
         # action2 = ""
@@ -138,6 +148,10 @@ class Create_Menu:
 
     def __create_flight(self):
         self.__create_flight_header()
+        pass
+
+    def __create_airplane(self):
+        self.__create_airplane_header()
         pass
 
     def __create_voyage(self):
