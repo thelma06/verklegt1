@@ -1,4 +1,5 @@
 from models.Destination import Destination
+import csv
 
 class DataAPI:
     
@@ -36,28 +37,35 @@ class DataAPI:
 
     def add_employee(self, employee):
         # first add to file then to private list
-        with open("./data/employee.txt", "a+") as employee_file:
-            name_str = employee.get_name()
-            so_str = employee.get_so()
-            address_str = employee.get_address()
-            home_phone_str = employee.get_home_phone()
-            cell_phone_str = employee.get_cell_phone()
-            email_str = employee.get_email()
-            employee_file.write("{}, {}, {}, {}, {}, {}\n".format(name_str, so_str, address_str, home_phone_str, cell_phone_str, email_str))
-        employee_file.close()
+        name_str = employee.get_name()
+        so_str = employee.get_so()
+        address_str = employee.get_address()
+        home_phone_str = employee.get_home_phone()
+        cell_phone_str = employee.get_cell_phone()
+        email_str = employee.get_email()
+        with open("./data/employee.csv", "a+", newline='', encoding='utf-8-sig') as csv_file:
+            fieldnames = ['name_str', 'so_str', 'address_str', 'home_phone_str', 'cell_phone_str', 'email_str']
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+
+            writer.writerow({'name_str': name_str, 'so_str': so_str, 'address_str': address_str, 'home_phone_str': home_phone_str, 'cell_phone_str': cell_phone_str, 'email_str': email_str})
+        csv_file.close()
 
     def get_employee(self):
         if self.__employee == []:
             employee_str = ""
+            with open("./data/employee.csv", newline='', encoding='utf-8-sig') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    print(row['name_str'] + ', ' + row['so_str'] + ', ' + row['address_str'] + ', ' + row['home_phone_str'] + ', ' + row['cell_phone_str'] + ', ' + row['email_str'])
             # destinations_str = "{}\t\t {}\t\t {}\t\t {}\t\t {}\t\t {}\n".format("Country", "Airport", "Duration", "Distance", "Contact name", "Contact phone")
-            with open("./data/employee.txt", "r") as employee_file:
-                for line in employee_file.readlines():
-                    name_str, so_str, address_str, home_phone_str, cell_phone_str, email_str = line.split(",")
-                    # title, genre, length = line.split(",")
-                    employee_str += "{}, {}, {}, {}, {}, {}".format(name_str, so_str, address_str, home_phone_str, cell_phone_str, email_str)
-                    # videos_str += "{}\t\t {}\t\t {}".format(title, genre, length)
-                    # new_video = "{}, {}, {}\n".format(title, genre, length)
-                    # self.__videos.append(new_video)
+        #     with open("./data/employee.txt", "r") as employee_file:
+        #         for line in employee_file.readlines():
+        #             name_str, so_str, address_str, home_phone_str, cell_phone_str, email_str = line.split(",")
+        #             # title, genre, length = line.split(",")
+        #             employee_str += "{}, {}, {}, {}, {}, {}".format(name_str, so_str, address_str, home_phone_str, cell_phone_str, email_str)
+        #             # videos_str += "{}\t\t {}\t\t {}".format(title, genre, length)
+        #             # new_video = "{}, {}, {}\n".format(title, genre, length)
+        #             # self.__videos.append(new_video)
         
-        return employee_str
-        # return self.__videos
+        # return employee_str
+        # # return self.__videos
