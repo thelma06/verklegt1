@@ -170,3 +170,13 @@ Miðvikudagur
 10.20 Online morgunfundue Facebook spjall - Ákváðum að hittast kl.17.30 í HR
 17.30 Vinnudagur hefst
 17.30 - Stúderuðum Video kóðann og fengum hann til að virka. Steppuðum okkur í gegnum kóðann og fundum út hvernig allt virkar. Skoðum restina í sinhvoru lagi og skiptum með okkur verkum með að útfæra kóðann fyrir Destination.
+
+--------------------------------------------------------------------------------------------------------------------
+Dagur 9 - 5.12.2019
+Fimmtudagur
+---------------------------------------------------------------------------------------------------------------------
+17.00 Mæting og 'Morgunfundu' skiptum með okkur verkum
+
+- Ingibjörg og Thelma bættu við Airplane virkninni þ.a. kerfið bætir við nýrri flugvél, birtir flugvélar
+- Eva og Þorsteinn bættu við virkni fyrir employees
+- Gunnsteinn bætti við virkni fyrir destination
