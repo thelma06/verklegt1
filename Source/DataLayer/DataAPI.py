@@ -36,13 +36,12 @@ class DataAPI:
 
     def add_airplane(self, airplane):
         # first add to file then to private list
-        with open("./data/Aircraft.csv", "a+") as aircraft_file:
-            name = airplane.get_name()
-            model = airplane.get_model()
-            producer = airplane.get_producer()
-            number_of_seats = airplane.get_number_of_seats()
-            aircraft_file.write("{}, {}, {}, {}, \n".format(name, model, producer, number_of_seats))
-        aircraft_file.close()
+        with open("./data/aircraft.csv", "a+", newline='', encoding='utf-8-sig') as csv_file:
+            fieldnames = ['name', 'model', 'producer', 'number_of_seats']
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+
+            writer.writerow({'name': name, 'model': model, 'producer': producer, 'number_of_seats': number_of_seats})
+        csv_file.close()
 
     
     def get_airplane(self):
