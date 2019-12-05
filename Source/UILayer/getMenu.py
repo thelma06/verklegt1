@@ -41,7 +41,7 @@ class Get_Menu:
                 # self.__get_destination()
 
             if action == "3":
-                destinations = self.__airplane_service.get_airpane()
+                airplane = self.__airplane_service.get_airpane()
                 print(airplane)
                 # self.__get_destination()
 
