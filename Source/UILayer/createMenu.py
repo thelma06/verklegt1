@@ -25,7 +25,7 @@ class Create_Menu:
             print("1: Create employee")
             print("2: Create destination")
             print("3: Create flight")
-            print("4: Create voyage")
+            print("4: Create Airplane")
             print("5: Create voyage")
             print("b: Back")
             # print("q: Quit")
@@ -37,8 +37,12 @@ class Create_Menu:
                 self.__create_employee()
             elif action == "2":
                 self.__create_destination()
-            elif action == "5":
+            #elif action == "3":
+                #self.__create_xxxxx()
+            elif action == "4":
                 self.__create_airplane()
+            #elif action == "5":
+                #self.__create_xxxxx()
 
     def __success_header(self):
         print("")
