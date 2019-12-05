@@ -1,13 +1,15 @@
 # from UILayer.mainMenu import Main_menu
+from LogicLayer.DestinationAPI import DestinationAPI
 
 class Get_Menu:
 
     def __init__(self):
-        self.get_employee_lst = []
-        self.get_destination_lst = []
-        self.get_flight_info_lst = []
-        self.get_flight_schedule_lst = []
-        self.get_employee_schedule_lst = []
+        self.__destination_service = DestinationAPI()
+        # self.get_employee_lst = []
+        # self.get_destination_lst = []
+        # self.get_flight_info_lst = []
+        # self.get_flight_schedule_lst = []
+        # self.get_employee_schedule_lst = []
 
     def get_menu(self):
         action = ""
@@ -34,7 +36,9 @@ class Get_Menu:
             action = input("Choose an option: ").lower()
 
             if action == "2":
-                self.__get_destination()
+                destinations = self.__destination_service.get_destinations()
+                print(destinations)
+                # self.__get_destination()
     
     def __get_employee_header(self):
         print("")

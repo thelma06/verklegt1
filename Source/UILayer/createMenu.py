@@ -1,12 +1,15 @@
 # from UILayer.mainMenu import Main_menu
+from LogicLayer.DestinationAPI import DestinationAPI
+from models.Destination import Destination
 
 class Create_Menu:
 
     def __init__(self):
-        self.create_employee_lst = []
-        self.create_destination_lst = []
-        self.create_flight_lst = []
-        self.create_voyage_lst = []
+        self.__destination_service = DestinationAPI()
+        # self.create_employee_lst = []
+        # self.create_destination_lst = []
+        # self.create_flight_lst = []
+        # self.create_voyage_lst = []
 
     def create_menu(self):
         action = ""
@@ -124,6 +127,8 @@ class Create_Menu:
 
         if correct == "y":
             self.__success_header()
+            new_destination = Destination(country_str, airport_str, duration_str, distance_str, contact_name_str, contact_phone_nr_str)
+            self.__destination_service.add_destination(new_destination)
             ''' Hér þarf að kalla í API niður í logic layer þar sem inputið
                 er sett í rétt format áður en það fer í data layer til 
                 skráningar.'''
