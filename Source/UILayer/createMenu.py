@@ -3,6 +3,8 @@ from LogicLayer.DestinationAPI import DestinationAPI
 from models.Destination import Destination
 from models.Employee import Employee
 
+ID_COUNTER = 1000
+
 class Create_Menu:
 
     def __init__(self):
@@ -114,6 +116,8 @@ class Create_Menu:
         print("**  Please fill in the information below   **")
         print("")
         print("Occupation: ", occupation_str)
+        employee_id_str = occupation_str + str(ID_COUNTER)
+        print("ID: ", employee_id_str)
         name_str = input("Name: ")
         SO_str = input("Social Security Number: ")
         address_str = input("Address: ")
@@ -126,7 +130,7 @@ class Create_Menu:
 
         if correct == "y":
             self.__success_header()
-            new_employee = Employee(name_str, SO_str, address_str, home_phone_str, cell_phone_str, email_str)
+            new_employee = Employee(occupation_str, employee_id_str, name_str, SO_str, address_str, home_phone_str, cell_phone_str, email_str)
             self.__employee_service.add_employee(new_employee)
         # # action2 = ""
         # ''' Þurfum við ekki að hafa test á því að inputið sé á
