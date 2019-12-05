@@ -39,7 +39,13 @@ class Get_Menu:
                 destinations = self.__destination_service.get_destinations()
                 print(destinations)
                 # self.__get_destination()
-    
+
+            if action == "3":
+                destinations = self.__airplane_service.get_airpane()
+                print(airplane)
+                # self.__get_destination()
+
+
     def __get_employee_header(self):
         print("")
         print("*********************************************")
@@ -129,3 +135,15 @@ class Get_Menu:
     def __get_employee_schedule(self):
         self.__get_employee_schedule_header()
         pass
+
+    def __get_airplane(self):
+        
+        self.__get_airplane_information_header()
+        print("   **    Please insert Airplane name     **   ")
+        print("")
+        _name_str = input("Airplane name: ")
+        ''' Hér kæmi þá virknin sem þarf til að kalla í API, sem
+            síðan kallar áfram í data layer til að sækja upplýsingar
+            um þetta destination.'''
+        ''' Hér kæmi virknin sem þarf til að birta gögnin sem logic
+            layer API skilar upp.'''
