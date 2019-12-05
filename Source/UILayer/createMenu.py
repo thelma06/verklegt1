@@ -108,7 +108,8 @@ class Create_Menu:
         elif occupation_choice == "4":
             occupation_str = "Flight Service Manager"
         elif occupation_choice == "b":
-            
+            self.create_menu()
+
         self.__create_employee_header()
         print("**  Please fill in the information below   **")
         print("")
