@@ -5,6 +5,7 @@ class Get_Menu:
 
     def __init__(self):
         self.__destination_service = DestinationAPI()
+        self.__airplane_service = DestinationAPI()
         # self.get_employee_lst = []
         # self.get_destination_lst = []
         # self.get_flight_info_lst = []
@@ -41,7 +42,7 @@ class Get_Menu:
                 # self.__get_destination()
 
             if action == "3":
-                airplane = self.__airplane_service.get_airpane()
+                airplane = self.__airplane_service.get_airplane()
                 print(airplane)
                 # self.__get_destination()
 

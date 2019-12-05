@@ -1,11 +1,13 @@
 # from UILayer.mainMenu import Main_menu
 from LogicLayer.DestinationAPI import DestinationAPI
 from models.Destination import Destination
+from models.airplane import Plane
 
 class Create_Menu:
 
     def __init__(self):
         self.__destination_service = DestinationAPI()
+        self.__airplane_service = DestinationAPI()
         # self.create_employee_lst = []
         # self.create_destination_lst = []
         # self.create_flight_lst = []
@@ -172,6 +174,8 @@ class Create_Menu:
 
         if correct == "y":
             self.__success_header()
+            new_airplane = Plane(name_str, model_str, producer_str, number_of_seats_str)
+            self.__airplane_service.add_airplane(new_airplane)
             ''' '''
             print("**   Press enter to return to main menu    **")
         if correct == "n":

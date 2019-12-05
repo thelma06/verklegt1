@@ -1,9 +1,11 @@
 from models.Destination import Destination
+from models.airplane import Plane
 
 class DataAPI:
     
     def __init__(self):
         self.__destinations = []
+        self.__airplane = []
 
     def add_destination(self, destination):
         # first add to file then to private list
@@ -37,12 +39,14 @@ class DataAPI:
 
     def add_airplane(self, airplane):
         # first add to file then to private list
+        name = airplane.get_name()
+        #name = airplane.get_name()
+        model = airplane.get_model()
+        producer = airplane.get_producer()
+        number_of_seats = airplane.get_number_of_seats()
         with open("./data/aircraft.csv", "a+", newline='', encoding='utf-8-sig') as csv_file:
             fieldnames = ['name', 'model', 'producer', 'number_of_seats']
-            name = airplane.get_name()
-            model = airplane.get_model()
-            producer = airplane.get_producer()
-            number_of_seats = airplane.get_number_of_seats()
+            
 
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
