@@ -45,7 +45,6 @@ class Get_Menu:
                 print(airplane)
                 # self.__get_destination()
 
-
     def __get_employee_header(self):
         print("")
         print("*********************************************")
@@ -117,7 +116,6 @@ class Get_Menu:
         print("")
         print("**   Press enter to return to main menu    **")
 
-
     def __get_airplane_information(self):
         self.__get_airplane_information_header()
         print("    **    Please an Airplane name     **     ")
@@ -147,3 +145,4 @@ class Get_Menu:
             um þetta destination.'''
         ''' Hér kæmi virknin sem þarf til að birta gögnin sem logic
             layer API skilar upp.'''
+
