@@ -119,7 +119,7 @@ class Get_Menu:
 
 
     def __get_airplane_information(self):
-        self.__get_flight_information_header()
+        self.__get_airplane_information_header()
         print("    **    Please an Airplane name     **     ")
         print("")
         ''' Hér langar mig að fá lista þannig að hægt sé að velja
