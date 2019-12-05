@@ -1,12 +1,20 @@
 class Employee:
 
-    def __init__(self, name = "", so = "", address = "", home_phone = "", cell_phone = "", email = ""):
+    def __init__(self, occupation = "", ID = "", name = "", so = "", address = "", home_phone = "", cell_phone = "", email = ""):
+        self.occupation = occupation
+        self.ID = ID
         self.name = name
         self.so = so
         self.address = address
         self.home_phone = home_phone
         self.cell_phone = cell_phone
         self.email = email
+
+    def get_occupation(self):
+        return str(self.occupation)
+
+    def get_id(self):
+        return str(self.ID)
 
     def get_name(self):
         return str(self.name)
