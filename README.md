@@ -180,3 +180,5 @@ Fimmtudagur
 - Ingibjörg og Thelma bættu við Airplane virkninni þ.a. kerfið bætir við nýrri flugvél, birtir flugvélar
 - Eva og Þorsteinn bættu við virkni fyrir employees
 - Gunnsteinn bætti við virkni fyrir destination
+
+22.30 home time
